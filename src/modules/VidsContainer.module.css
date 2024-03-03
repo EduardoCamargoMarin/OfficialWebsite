@@ -1,0 +1,33 @@
+:root {
+    --bluePalletDarkColor: #000833;
+}
+
+.video {
+    margin-top: 5em;
+    border-radius: 10px;
+    width: 72%;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.videoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left bottom, #000833, #004775, #0074a5, #00b8ed);
+    background-size: 400% 400%;
+    animation: moveGradient 5s ease-in-out infinite;
+}
+@keyframes moveGradient {
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 0%;
+
+    }
+
+    100%{
+        background-position: 0% 50%;
+  }
+}

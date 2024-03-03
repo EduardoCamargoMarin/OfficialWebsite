@@ -1,0 +1,40 @@
+:root {
+    --bluePalletDarkColor: #000833;
+    --bluePalletLightColor: #DCF2F1;
+    --whitePalletContrastColor: #e7e7e7;
+    --shadowColor: #000;
+    --fontColorForDarkPallet: #fff;
+    --fontColorForLightPallet: #000;
+    --titleColorForDarkPallet: #CFB776;
+    --hoverColorForDarkPallet: #e2a600;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--bluePalletDarkColor);
+    box-shadow: 0px 3px 10px var(--shadowColor);
+    color: var(--fontColorForDarkPallet);
+    position: fixed;
+    width: 100%;
+    border-top: 3px solid var(--hoverColorForDarkPallet);
+}
+
+.btnNavBar {
+    border: 1px solid var(--bluePalletDarkColor);
+    background-color: #000833;
+    color: #fff;
+    padding: 5px;
+    margin: 30px;
+    width: 7em;
+    transition: .2s ease-in-out;
+}
+
+.btnNavBar:hover {
+    color: var(--hoverColorForDarkPallet);
+    border-radius: 5px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    cursor: pointer;
+}
