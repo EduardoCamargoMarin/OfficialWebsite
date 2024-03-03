@@ -38,3 +38,13 @@
     border-right: 1px solid #fff;
     cursor: pointer;
 }
+
+@media screen and (max-width:750px) {
+    .headerContainer {
+        position: relative;
+       flex-wrap: wrap;
+    }
+    .btnNavBar {
+        display: none;
+    }
+}

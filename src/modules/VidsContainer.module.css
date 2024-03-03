@@ -31,3 +31,13 @@
         background-position: 0% 50%;
   }
 }
+
+@media screen and (max-width:750px) {
+    .video {
+        width: 100%;
+    }
+    .videoContainer {
+        margin-top: 0px;
+        height: 10em;
+    }
+}
