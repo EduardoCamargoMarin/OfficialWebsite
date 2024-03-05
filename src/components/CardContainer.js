@@ -1,9 +1,9 @@
 
-import styles from '../modules/ContainerDouble.module.css'
+import styles from '../modules/CardContainer.module.css'
 import { Link } from 'react-router-dom'
 
 
-function ContainerDouble (props) {
+function CardContainer (props) {
     return(
         <div className={styles.container}>
         <section>
@@ -16,8 +16,13 @@ function ContainerDouble (props) {
                 <p>{props.secondContent}</p>
             <Link to={'/Training'}><button className={styles.btnContainer}>Saiba mais</button></Link>
         </section>
+        <section> 
+                <h1 className={styles.titleContainer}>{props.thirdTitle}</h1>  
+                <p>{props.thirdContent}</p>
+            <Link to={'/Training'}><button className={styles.btnContainer}>Saiba mais</button></Link>
+        </section>
     </div>
     )
 }
 
-export default ContainerDouble
+export default CardContainer
