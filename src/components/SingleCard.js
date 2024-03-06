@@ -1,18 +1,19 @@
 
-import styles from '../modules/ContainerDouble.module.css'
 import { Link } from 'react-router-dom'
+import styles from '../modules/SingleCard.module.css'
 
-
-function ContainerDouble (props) {
+ function SingleCard (props) {
     return(
-        <div className={styles.container}>
-        <section>
-                <h1 className={styles.titleContainer}>{props.firstTitle}</h1>
-                    <p>{props.firstContent}</p>
-            <Link to={'/Consulting'}><button className={styles.btnContainer}>Saiba mais</button></Link>
+       <div className={styles.container}>
+        <section className={styles.sectionContainer}>
+            <h1 className={styles.mainTitle}>{props.title}</h1>
         </section>
-    </div>
+        <section className={styles.sectionContainer}>
+            <p>{props.content}</p>
+            <Link to={''}><button className={styles.btnSection}>Saiba mais</button></Link>
+        </section>
+       </div>
     )
 }
 
-export default ContainerDouble
+export default SingleCard

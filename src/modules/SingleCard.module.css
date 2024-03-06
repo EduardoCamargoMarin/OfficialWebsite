@@ -1,0 +1,78 @@
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px;
+    background-image:  url(../content/images/companyBackground.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    box-shadow: 0px -10px 10px #000;
+    margin-top: 20px;
+}
+
+.sectionContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 49px;
+    border-left: 2px groove #CFB556;
+}
+
+.sectionContainer p {
+    line-height: 30px;
+}
+
+.mainTitle {
+    font-size: 5em;
+}
+
+.btnSection {
+    
+        padding: 15px;
+        width: 11em;
+        font-size: 15px;
+        background-color: #0043b0;
+        color: white;
+        border: none;
+        transition: .2s ease-in-out;
+        border-radius: 5px;
+        margin-top: 20px;
+}
+    
+.btnSection:hover {
+        color: #00173c;
+        background-color: #b3d0ff;
+        cursor: pointer;
+    } 
+
+    @media screen and (max-width:900px) {
+        .container {
+            display: grid;
+            background-position: left bottom;
+            padding: 20px;
+            margin-top: 100px;
+            box-shadow: 0px -10px 10px #000;
+        }
+
+        .sectionContainer {
+            padding: 20px;
+            border: none;
+        }
+
+        .mainTitle {
+            font-size: 4em;
+        }
+
+        .sectionContainer p {
+            font-size: 1.3em;
+            background-color: #000;
+            padding: 30px;
+            border-radius: 10px;
+            opacity: 0.8;
+            text-shadow: 1px 1px 0px #000;
+        }
+    }
