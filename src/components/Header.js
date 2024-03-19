@@ -34,7 +34,7 @@ function Header () {
             </div>
             <div className={styles.navMobile}>
             <nav className={styles.btnMobileHeaderContainer}>
-                <Button variant="primary" onClick={handleToggleOffcanvas}>
+                <Button className={styles.btnNavBarMobileIcon} variant="primary" onClick={handleToggleOffcanvas}>
                     |||
                 </Button>
 

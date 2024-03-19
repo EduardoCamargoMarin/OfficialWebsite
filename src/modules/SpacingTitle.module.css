@@ -3,12 +3,15 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: #000833;
+    color: #fff;
+    margin: 10px;
+    border-radius: 50px 20px 10px;
 
 }
 
 @media screen and (max-width:900px) {
     .container {
-        margin-top: 150px;
-        margin-bottom: -100px;
+        margin-top: 50px;
     }
 }

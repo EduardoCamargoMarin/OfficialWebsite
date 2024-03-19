@@ -63,7 +63,7 @@
     }
     .btnNavMobile {
         border: 1px solid var(--bluePalletDarkColor);
-        background-color: #000833;
+        background-color: #000833 !important;
         color: #fff;
         padding: 5px;
         margin: 30px;
@@ -84,6 +84,10 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        background-color: var(--bluePalletDarkColor);
+        background-color: var(--bluePalletDarkColor) !important;
     }
+}
+
+.btnNavBarMobileIcon {
+    rotate: 90deg;
 }

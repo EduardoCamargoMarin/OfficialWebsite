@@ -1,0 +1,45 @@
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    box-shadow: 0px 10px 10px #000;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.image {
+    width: 30em;
+}
+
+.sectionContainer {
+    margin: 50px;
+}
+
+.btnContainer {
+    padding: 15px;
+    width: 11em;
+    font-size: 15px;
+    background-color: #0043b0;
+    color: white;
+    border: none;
+    transition: .2s ease-in-out;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btnContainer:hover {
+    color: #00173c;
+    background-color: #b3d0ff;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:900px) {
+    .image {
+        width: 22em;
+    }
+    .container {
+        display: grid;
+    }
+}
