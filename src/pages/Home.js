@@ -18,7 +18,7 @@ export function Home() {
         <SingleCard 
             title = 'Sua empresa na era digital'
             content = 'Projete o seu negócio para ser reconhecido por profissionalismo e inovação, usando tecnologias usadas no Facebook, Youtube e Linkedin, para projetar um site exclusivo de mais alta performance.'
-        />
+            />
         <SpacingTitle 
             title = 'Conheça nossos serviços'
         />
@@ -30,19 +30,17 @@ export function Home() {
             thirdTitle = 'Desing UI / UX'
             thirdContent = 'Texto criativo novo porque  eu estou sem criatividade mesmo, porém se servir de consolo eu estou tentando pensar em algo, mas é 21:38'
         />
-        <SpacingTitle 
-            title = 'Marketing empresarial'
-        />
         <ImageContainer 
             image = {digitalCardImage}
             title = 'Cartão Digital'
-            content = 'Tenha o seu próprio cartão digital e aumente o impulsionamento da sua marca através do compartilhamento rápido das informações.'
-        />
+            content = 'Tenha o seu próprio cartão digital e aumente o impulsionamento da sua marca, através do compartilhamento rápido das informações 100% interativo .'
+            
+       />
         <ImageContainer 
             image = {printCard}
             title = 'Cartão comercial'
-            content = 'Obtenha o seu próprio cartão comercial para os seus clientes saibam que podem contar com você'
-        />
+            content = 'Obtenha o seu próprio cartão comercial para que os seus clientes saibam que podem contar com você'
+       />
         </>
     )
 }
