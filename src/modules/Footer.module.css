@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000833;
+    color: #fff;
+}
+
+.navFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    width: 40%;
+    padding: 40px;
+}
+
+li:hover {
+    color: #CFB556;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .navFooter {
+        width: 100%;
+    }
+}

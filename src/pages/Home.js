@@ -1,20 +1,25 @@
 import React from "react";
 import Header from "../components/Header";
 import VidsContainer  from "../components/VidsContainer";
-import companyVideo from '../content/videos/Instituto de Design Estilo.gif'
+import companyVideo from '../content/videos/Instituto de Design Estilo (3).gif'
 import CardContainer from "../components/CardContainer";
 import SpacingTitle from "../components/SpacingTitle";
 import SingleCard from "../components/SingleCard";
 import digitalCardImage from '../content/images/DigitalCard.jpg'
 import ImageContainer from '../components/ImageContainer'
 import printCard from '../content/images/card.jpg'
+import Footer from "../components/Footer";
 
 
 export function Home() {
     return(
         <>
         <Header />
-        <VidsContainer video = {companyVideo}/>
+        <VidsContainer 
+        title = 'Conecte-se ao mundo digital'
+        content = 'Inovação e qualidade para a sua empresa'
+        video = {companyVideo}
+        />
         <SingleCard 
             title = 'Sua empresa na era digital'
             content = 'Projete o seu negócio para ser reconhecido por profissionalismo e inovação, usando tecnologias usadas no Facebook, Youtube e Linkedin, para projetar um site exclusivo de mais alta performance.'
@@ -41,6 +46,7 @@ export function Home() {
             title = 'Cartão comercial'
             content = 'Obtenha o seu próprio cartão comercial para que os seus clientes saibam que podem contar com você'
        />
+       <Footer />
         </>
     )
 }

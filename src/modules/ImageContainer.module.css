@@ -37,7 +37,10 @@
 
 @media screen and (max-width:900px) {
     .image {
-        width: 22em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 19em;
     }
     .container {
         display: grid;
