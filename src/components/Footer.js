@@ -8,7 +8,7 @@ function Footer() {
                 <li>Linkedin</li>
                 <li>Contato</li>
                 <li>Parceria</li>
-                <li>Trabalhe conosco</li>
+                <li>Freelancer</li>
             </nav>
         </div>
     )

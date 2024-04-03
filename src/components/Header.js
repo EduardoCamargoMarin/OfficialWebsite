@@ -25,8 +25,8 @@ function Header () {
         </div>
             <div>
                 <nav className={styles.navBar}>
-                    <Link to={''}><button className={styles.btnNavBar}>Início</button></Link>
-                    <Link to={''}><button className={styles.btnNavBar}>Sobre</button></Link>
+                    <Link to={'/'}><button className={styles.btnNavBar}>Início</button></Link>
+                    <Link to={'/About'}><button className={styles.btnNavBar}>Sobre</button></Link>
                     <Link to={''}><button className={styles.btnNavBar}>Serviços</button></Link>
                     <Link to={''}><button className={styles.btnNavBar}>Portfólio</button></Link>
                     <Link to={''}><button className={styles.btnNavBar}>Contato</button></Link>
