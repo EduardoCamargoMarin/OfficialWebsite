@@ -1,13 +1,49 @@
 
 .container {
-    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('../content/images/rankImage.jpg');
+    background-attachment: fixed;
+    height: 40em;
+}
+
+.container h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+    margin: 10px;
+    padding: 5px;
+    width: 50%;
+    background-color: #000833;
+    backdrop-filter: blur(50px);
+    border-radius: 50px 20px 10px;
 }
 
 
 .container p {
-    background-color: #e7e7e7;
+    background-color: #f3f3f3;
     color: #000;
     padding: 20px;
     box-shadow: 5px 5px 10px #000;
     border-radius: 5px;
+    line-height: 30px;
+}
+
+.innerContainer {
+    padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        padding-top: 200px;
+        margin-bottom: 200px;
+    }
+
+    .container h1 {
+        width: 90%;
+    }
 }

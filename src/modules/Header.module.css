@@ -20,6 +20,7 @@
     border-top: 3px solid var(--hoverColorForDarkPallet);
     opacity: .9;
     position: fixed;
+    z-index: 10;
 }
 
 .btnNavBar {
@@ -66,6 +67,9 @@
         z-index: 10;
     }
     .btnNavMobile {
+        display: grid;
+        align-items: center;
+        justify-content: center;
         border: 1px solid var(--bluePalletDarkColor);
         background-color: #000833 !important;
         color: #fff;

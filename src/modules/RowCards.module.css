@@ -4,7 +4,34 @@
     align-items: center;
     justify-content: space-around;
 }
+
+.container section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.link {
+    text-decoration: none;
+    color: #000;
+}
+
+.link:hover {
+    color: #001c57;
+    font-weight: 600;
+}
+
 .image {
     width: 10em;
     border-radius: 400px;
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        display: grid;
+        margin-top: 100px;
+    }
 }

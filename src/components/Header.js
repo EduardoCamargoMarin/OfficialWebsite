@@ -43,8 +43,8 @@ function Header () {
             <Offcanvas.Title></Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body >
-                    <Link to={''}><button className={styles.btnNavMobile}>Início</button></Link>
-                    <Link to={''}><button className={styles.btnNavMobile}>Sobre</button></Link>
+                    <Link to={'/'}><button className={styles.btnNavMobile}>Início</button></Link>
+                    <Link to={'/About'}><button className={styles.btnNavMobile}>Sobre</button></Link>
                     <Link to={''}><button className={styles.btnNavMobile}>Serviços</button></Link>
                     <Link to={''}><button className={styles.btnNavMobile}>Portfólio</button></Link>
                     <Link to={''}><button className={styles.btnNavMobile}>Contato</button></Link>
