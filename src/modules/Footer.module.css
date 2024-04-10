@@ -5,6 +5,7 @@
     flex-direction: column;
     background-color: #000833;
     color: #fff;
+    border-bottom: 3px solid #ffd900;
 }
 
 .navFooter {
@@ -17,7 +18,7 @@
 }
 
 li:hover {
-    color: #CFB556;
+    color: #ffc800;
     cursor: pointer;
 }
 

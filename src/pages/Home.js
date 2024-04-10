@@ -1,14 +1,14 @@
 import React from "react";
 import Header from "../components/Header";
 import VidsContainer  from "../components/VidsContainer";
-import companyVideo from '../content/videos/Instituto de Design Estilo (3).gif'
 import CardContainer from "../components/CardContainer";
 import SpacingTitle from "../components/SpacingTitle";
 import SingleCard from "../components/SingleCard";
 import digitalCardImage from '../content/images/DigitalCard.jpg'
 import ImageContainer from '../components/ImageContainer'
-import printCard from '../content/images/card.jpg'
 import Footer from "../components/Footer";
+
+import companyVideo from '../content/videos/vidCompany.gif'
 
 
 export function Home() {
@@ -40,11 +40,6 @@ export function Home() {
             title = 'Cartão Digital'
             content = 'Tenha o seu próprio cartão digital e aumente o impulsionamento da sua marca, através do compartilhamento rápido das informações 100% interativo .'
             
-       />
-        <ImageContainer 
-            image = {printCard}
-            title = 'Cartão comercial'
-            content = 'Obtenha o seu próprio cartão comercial para que os seus clientes saibam que podem contar com você'
        />
        <Footer />
         </>
