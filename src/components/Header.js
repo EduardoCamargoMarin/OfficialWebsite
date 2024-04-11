@@ -27,8 +27,8 @@ function Header () {
                 <nav className={styles.navBar}>
                     <Link to={'/'}><button className={styles.btnNavBar}>Início</button></Link>
                     <Link to={'/About'}><button className={styles.btnNavBar}>Sobre</button></Link>
-                    <Link to={''}><button className={styles.btnNavBar}>Portfólio</button></Link>
-                    <Link to={''}><button className={styles.btnNavBar}>Contato</button></Link>
+                    <Link to={'/Portfolio'}><button className={styles.btnNavBar}>Portfólio</button></Link>
+                    <Link to={'/Contact'}><button className={styles.btnNavBar}>Contato</button></Link>
                 </nav>
             </div>
             <div className={styles.navMobile}>
@@ -44,8 +44,8 @@ function Header () {
           <Offcanvas.Body >
                     <Link to={'/'}><button className={styles.btnNavMobile}>Início</button></Link>
                     <Link to={'/About'}><button className={styles.btnNavMobile}>Sobre</button></Link>
-                    <Link to={''}><button className={styles.btnNavMobile}>Portfólio</button></Link>
-                    <Link to={''}><button className={styles.btnNavMobile}>Contato</button></Link>
+                    <Link to={'/Portfolio'}><button className={styles.btnNavMobile}>Portfólio</button></Link>
+                    <Link to={'/Contact'}><button className={styles.btnNavMobile}>Contato</button></Link>
           </Offcanvas.Body>
         </Offcanvas>
                 </nav>
