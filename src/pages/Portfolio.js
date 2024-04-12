@@ -23,24 +23,46 @@ export function Portfolio() {
             />
         <ImageContainer 
             image = {digitalCardImage}
-            title = 'Cartão Digital'
+            title = 'Sites desenvolvidos para você'
             content = 'Tenha o seu próprio cartão digital e aumente o impulsionamento da sua marca, através do compartilhamento rápido das informações 100% interativo .'
             
        />
         <CardContainer 
-            firstTitle = 'Websites'
+            firstTitle = 'Templates'
             firstContent = 'Desenvolvemos websites personalizados e templates exclusivos para a sua empresa, texto chamativo porque estou sem criatividade'
-            secondTitle = 'Marketing'
+            secondTitle = 'Portfólios'
             secondContent = 'Texto criativo novo porque  eu estou sem criatividade mesmo, porém se servir de consolo eu estou tentando pensar em algo, mas é 21:38'
-            thirdTitle = 'Desing UI / UX'
+            thirdTitle = 'Personalizados'
             thirdContent = 'Texto criativo novo porque  eu estou sem criatividade mesmo, porém se servir de consolo eu estou tentando pensar em algo, mas é 21:38'
         />
         <ImageContainer 
             image = {digitalCardImage}
-            title = 'Cartão Digital'
+            title = 'Acompanhe o projeto em tempo real'
             content = 'Tenha o seu próprio cartão digital e aumente o impulsionamento da sua marca, através do compartilhamento rápido das informações 100% interativo .'
             
        />
+        <SingleCard 
+            title = 'Marketing Digital'
+            content = 'Projete o seu negócio para ser reconhecido por profissionalismo e inovação, usando tecnologias usadas no Facebook, Youtube e Linkedin, para projetar um site exclusivo de mais alta performance.'
+            />
+        <CardContainer 
+            firstTitle = 'Cartão Digital'
+            firstContent = 'Desenvolvemos websites personalizados e templates exclusivos para a sua empresa, texto chamativo porque estou sem criatividade'
+            secondTitle = 'Logotipos'
+            secondContent = 'Texto criativo novo porque  eu estou sem criatividade mesmo, porém se servir de consolo eu estou tentando pensar em algo, mas é 21:38'
+            thirdTitle = 'Personalizados'
+            thirdContent = 'Texto criativo novo porque  eu estou sem criatividade mesmo, porém se servir de consolo eu estou tentando pensar em algo, mas é 21:38'
+        />
+        <ImageContainer 
+            image = {digitalCardImage}
+            title = 'Sua empresa conectada'
+            content = 'Tenha o seu próprio cartão digital e aumente o impulsionamento da sua marca, através do compartilhamento rápido das informações 100% interativo .'
+            
+       />
+        <SingleCard 
+            title = 'Inovação para o seu negócio'
+            content = 'Projete o seu negócio para ser reconhecido por profissionalismo e inovação, usando tecnologias usadas no Facebook, Youtube e Linkedin, para projetar um site exclusivo de mais alta performance.'
+            />
        <Footer />
         </>
     )
