@@ -20,7 +20,8 @@
     padding: 15px;
     width: 11em;
     font-size: 15px;
-    background-color: #0043b0;
+    background-image: linear-gradient(360deg, #000833, #000833, #0043b0, #fff) ;
+    background-attachment: fixed;
     color: white;
     border: none;
     transition: .2s ease-in-out;

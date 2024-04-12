@@ -3,7 +3,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #000833;
+    background-image: linear-gradient(360deg, #000833, #000833, #0043b0, #fff) ;
+    background-attachment: fixed;
     color: #fff;
     margin: 10px;
     border-radius: 50px 20px 10px;
